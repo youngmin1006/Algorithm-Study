@@ -28,7 +28,7 @@ def solution(A):
     return A[length - 1] + 1 # 마지막인 경우
 
 # TapeEquilibrium
-# 함수를 두개로 나누었을 때 각각의 합의 차의 최소가 되는 p값
+# 함수를 두개로 나누었을 때 각각의 합의 차의 최소값
 
 import sys
 
