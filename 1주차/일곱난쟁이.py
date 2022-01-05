@@ -17,7 +17,7 @@ for i, age in enumerate(ages) :
     n1 = age
     for j in range(i+1, n) :
         n2 = ages[j]
-        if (total-n1-n2) == 100 :
+        if (total-n1-n2) == 100 : # 두 사람이 일곱 난쟁이가 아닐 경우  
             answer = True
             break
     if answer :
