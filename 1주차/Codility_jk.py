@@ -33,7 +33,7 @@ def solution(A):
 
     return min(ans)
   
-# 3번 문제 (투 포인터를 이용해서 시간 초과 해결 O(N))
+# 3번 문제 (시간 초과 해결 O(N))
   
 def solution(A):
 
