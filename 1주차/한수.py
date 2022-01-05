@@ -1,4 +1,4 @@
-def is_hansu(num) :
+def is_hansu(num) : # 한수 판단
     n1 = num // 100
     n3 = num % 10
     n2 = (num - 100 * n1 - n3) // 10
