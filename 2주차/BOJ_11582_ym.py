@@ -25,3 +25,5 @@ def solve(n):
     solve(n // 2)
 
 solve(N//2)
+
+#리스트 괄호 벗길때  *리스트 이름.
