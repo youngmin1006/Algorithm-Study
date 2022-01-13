@@ -2,7 +2,7 @@ import sys
 input = sys.stdin.readline
 N, P = map(int, input().split(' '))
 melody = [list(map(int, input().split(' '))) for i in range(N)]
-melody.sort(key=lambda x : x[0]) # 앞만 우선 정렬
+melody.sort(key=lambda x : x[0]) # 기탓줄만 정렬
 answer = 0
 stack = [] # 현재 손가락이 잡고 있는 기타줄
 for gs, p in melody :
