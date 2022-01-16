@@ -1,7 +1,4 @@
 # 쇠막대기
-import sys
-input = sys.stdin.readline
-
 bracket = list(input())
 
 stack = []
