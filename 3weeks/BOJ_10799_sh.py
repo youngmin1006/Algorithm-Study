@@ -1,4 +1,6 @@
 # 쇠막대기
+import sys
+input = sys.stdin.readline
 
 bracket = list(input())
 
@@ -17,3 +19,4 @@ for i in range(len(bracket)):
            stack.pop()
            count += 1
 
+print(count)
