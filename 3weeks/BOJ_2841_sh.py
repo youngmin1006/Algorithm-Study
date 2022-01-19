@@ -12,7 +12,7 @@ count = 0
 for line, fret in sound: 
    
     # 비어있는 경우
-    if len(stack[line]) == 0:
+    if stack[line]:
         stack[line].append(fret)
         count += 1
 
@@ -24,12 +24,15 @@ for line, fret in sound:
         elif fret == stack[line][-1]:
             continue
         else:
-            while len(stack[line]) != 0 and fret < stack[line][-1]:
+            while stack[line] and fret < stack[line][-1]:
                 stack[line].pop()
                 count += 1
-            if len(stack[line]) != 0 and fret == stack[line][-1]: # 지금 연주되고 있다는 의미
+            if stack[line] and fret == stack[line][-1]: 
                 continue
             stack[line].append(fret)
             count += 1
 
 print(count)
+
+# len(stack[line]) == 0
+# -> stack[line]
