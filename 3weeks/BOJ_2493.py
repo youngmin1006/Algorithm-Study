@@ -19,3 +19,4 @@ for i in range(len(top)):
     stack.append([i, top[i]]) # 일단 처음엔 [인덱스, 높이] append
 
 print(*idx)
+
