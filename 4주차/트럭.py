@@ -24,7 +24,6 @@ while True :
             nTruck = nList.popleft()
             bridge.append(nTruck)
             summary+=nTruck
-
         else :
             bridge.append(0)
         
