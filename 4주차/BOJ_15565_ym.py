@@ -2,8 +2,8 @@ import sys
 input = sys.stdin.readline
 N,K = map(int,input().split())
 num = list(map(int,input().split()))
-ryan = []
-res = []
+ryan = []#라이언인것의 위치만 모아둠
+
 for i in range(N):
     if num[i] == 1:
         ryan.append(i)
